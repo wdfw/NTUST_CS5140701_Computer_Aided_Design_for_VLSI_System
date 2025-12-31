@@ -1,0 +1,150 @@
+.model top
+.inputs a b c d e f g 
+.outputs h i j k l m n o p q 
+.names E3 E30 E31 E35 E36 E4 a h
+----11- 1
+1--1--- 1
+--1---1 1
+-1----0 1
+.names E10 E11 E12 E13 E30 E31 E32 E33 E34 E8 a g i
+1-------1-1- 1
+---1---1---- 1
+--1---1----- 1
+-----1---1-1 1
+-1--1------- 1
+.names E14 E15 E32 E33 a d g j
+1--11-- 1
+-11---0 1
+----01- 1
+.names E16 a d k
+111 1
+.names c f l
+01 1
+10 1
+.names c m
+0 1
+.names E17 E34 c e f g n
+-1---1 1
+1---01 1
+--0-10 1
+--1100 1
+.names c e f o
+01- 1
+-11 1
+100 1
+.names E21 E22 E23 E24 E35 E36 a g p
+--1--1-- 1
+-1--1--- 1
+---1--00 1
+1-----11 1
+.names E25 E26 E27 E28 b e f q
+---110- 1
+--1-01- 1
+-1--11- 1
+1---001 1
+.names E5 b d E0
+1-1 1
+-1- 1
+.names E2 b d E1
+1-0 1
+-0- 1
+.names c f E2
+0- 1
+-0 1
+.names E0 b e f E3
+1-1- 1
+-1-1 1
+.names E1 E2 b e E4
+-10- 1
+1--0 1
+.names c f E5
+1- 1
+-1 1
+.names a e f E6
+1-- 1
+-1- 1
+--1 1
+.names c e f g E7
+-0-- 1
+---0 1
+0-0- 1
+.names E5 a e E8
+1-1 1
+-1- 1
+.names E2 a e E9
+1-0 1
+-0- 1
+.names E31 d e g E10
+1-1- 1
+-100 1
+.names E6 a e g E11
+1--1 1
+-11- 1
+.names E2 E7 a g E12
+-10- 1
+1--0 1
+.names E9 a e f g E13
+1---0 1
+-000- 1
+.names E34 e g E14
+1-- 1
+-1- 1
+--1 1
+.names E2 e E15
+1- 1
+-0 1
+.names E34 b e g E16
+1-1- 1
+-1-- 1
+---1 1
+.names c e E17
+0- 1
+-0 1
+.names b c e E18
+--0 1
+00- 1
+.names E5 b E19
+1- 1
+-1 1
+.names E34 b E20
+1- 1
+-1 1
+.names E19 b e f E21
+1-1- 1
+-1-1 1
+.names E18 b e f E22
+1--0 1
+-00- 1
+.names E15 E2 b e E23
+1-0- 1
+-1-0 1
+.names E20 E34 b e E24
+-11- 1
+1--1 1
+.names c g E25
+1- 1
+-1 1
+.names E34 E5 g E26
+1-- 1
+-11 1
+.names E2 c f g E27
+1--0 1
+-00- 1
+.names c f g E28
+-0- 1
+0-0 1
+.names b d E30
+11 1
+.names b d E31
+00 1
+.names b d E32
+01 1
+.names b d E33
+10 1
+.names c f E34
+11 1
+.names a g E35
+01 1
+.names a g E36
+10 1
+.end

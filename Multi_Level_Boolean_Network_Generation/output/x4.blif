@@ -1,0 +1,412 @@
+.model top
+.inputs a b c d e f g h i j k l m n o p q r s t u v w x y z a0 b0 c0 d0 e0 f0 g0 h0 i0 j0 k0 l0 m0 n0 o0 p0 q0 r0 s0 t0 u0 v0 w0 x0 y0 z0 a1 b1 c1 d1 e1 f1 g1 h1 i1 j1 k1 l1 m1 n1 o1 p1 q1 r1 s1 t1 u1 v1 w1 x1 y1 z1 a2 b2 c2 d2 e2 f2 g2 h2 i2 j2 k2 l2 m2 n2 o2 p2 
+.outputs q2 r2 s2 t2 u2 v2 w2 x2 y2 z2 a3 b3 c3 d3 e3 f3 g3 h3 i3 j3 k3 l3 m3 n3 o3 p3 q3 r3 s3 t3 u3 v3 w3 x3 y3 z3 a4 b4 c4 d4 e4 f4 g4 h4 i4 j4 k4 l4 m4 n4 o4 p4 q4 r4 s4 t4 u4 v4 w4 x4 y4 z4 a5 b5 c5 d5 e5 f5 g5 h5 i5 
+.names E0 E1 E44 i0 j1 q2
+1-1-- 1
+-1-01 1
+.names E2 E38 h m0 r1 r2
+-1--1 1
+1-01- 1
+.names E34 E4 E5 h x0 s2
+11--0 1
+--101 1
+.names m0 t2
+0 1
+.names E34 E4 E6 a2 h j0 u2
+1-10-- 1
+-1--00 1
+.names E35 E36 h u0 v2
+11-- 1
+--01 1
+.names p0 w2
+0 1
+.names E7 E8 i0 x2
+110 1
+.names E10 E47 E9 h o r t0 y2
+-11-00- 1
+1--0--0 1
+.names E11 E34 a1 h x0 z2
+11--1 1
+--100 1
+.names E12 E37 E7 d0 d2 g2 i0 s0 z1 a3
+-1---1--- 1
+1-----00- 1
+1--10-0-0 1
+1-1---0-- 1
+.names E13 E14 E19 E37 i0 l b3
+1--1-1 1
+-11-0- 1
+.names E15 E40 c3
+11 1
+.names E16 E38 h h0 i1 d3
+-1--1 1
+1-01- 1
+.names E17 E46 E7 i0 v0 e3
+11--- 1
+--1-1 1
+---1- 1
+.names E18 E38 e0 h m1 f3
+-1--1 1
+1-10- 1
+.names E13 E20 E37 E39 s g3
+-1-1- 1
+1-1-1 1
+.names E35 E36 h r0 h3
+11-- 1
+--01 1
+.names E13 E19 E20 E37 E39 E41 i0 n o0 i3
+----11--- 1
+1--1---1- 1
+-11---0-1 1
+.names E21 E38 h p0 q1 j3
+-1--1 1
+1-01- 1
+.names E22 h q0 t1 k3
+10-1 1
+-01- 1
+.names E40 m1 l3
+11 1
+.names E13 E20 E37 E41 E42 E51 o2 m3
+-1---1- 1
+---11-- 1
+1-1---1 1
+.names E23 h j1 u0 w1 n3
+10--1 1
+-0110 1
+.names E40 i1 o3
+11 1
+.names E20 E24 b1 i0 k p3
+-110- 1
+1--01 1
+.names E13 E20 E37 E41 E42 E43 p2 q3
+---1-1- 1
+-1--1-- 1
+1-1---1 1
+.names E40 d1 r3
+11 1
+.names E13 E20 E37 E41 E43 E45 c s3
+---1-1- 1
+-1--1-- 1
+1-1---1 1
+.names E25 E44 E56 E7 i0 w t3
+--1-00 1
+11-1-- 1
+.names E40 c1 u3
+11 1
+.names E9 a2 i0 k1 v1 v3
+110-- 1
+--010 1
+.names E13 E20 E37 E41 E45 E55 f w3
+---1-1- 1
+-1--1-- 1
+1-1---1 1
+.names E13 E20 E41 E46 h1 i0 s0 z0 x3
+1--1--1- 1
+--1-0--- 1
+-1-----1 1
+-----1-- 1
+.names E10 E26 E47 h l1 w0 y3
+1-1-01 1
+-1-01- 1
+.names g1 i0 z3
+10 1
+.names E10 E27 E36 h w0 a4
+1-10- 1
+-1-01 1
+.names E13 E19 E20 E37 E41 E48 h1 i0 k2 b4
+----11--- 1
+1--1----1 1
+-11---10- 1
+.names i0 k1 c4
+01 1
+.names E13 E20 E37 E41 E48 E50 m2 d4
+---1-1- 1
+-1--1-- 1
+1-1---1 1
+.names E28 E49 f1 h o1 e4
+-10-1 1
+1-10- 1
+.names E40 r1 f4
+11 1
+.names E29 E49 h o1 g4
+-1-0 1
+1-01 1
+.names E13 E20 E37 E41 E50 E51 n2 h4
+---1-1- 1
+-1--1-- 1
+1-1---1 1
+.names E40 q1 i4
+11 1
+.names i0 i2 j4
+01 1
+.names E13 E20 E37 E41 E52 E60 y k4
+-1---1- 1
+---11-- 1
+1-1---1 1
+.names e2 i0 l4
+10 1
+.names E13 E20 E37 E41 E52 E53 c0 m4
+---1-1- 1
+-1--1-- 1
+1-1---1 1
+.names c2 i0 n4
+10 1
+.names E13 E20 E37 E41 E53 E54 g0 o4
+---1-1- 1
+-1--1-- 1
+1-1---1 1
+.names i0 x1 p4
+01 1
+.names E13 E20 E37 E41 E54 E61 k0 q4
+---1-1- 1
+-1--1-- 1
+1-1---1 1
+.names E13 E20 E37 E41 E55 E57 i r4
+---1-1- 1
+-1--1-- 1
+1-1---1 1
+.names E13 E56 i0 s0 s4
+1110 1
+.names E13 E20 E37 E41 E57 E58 m t4
+---1-1- 1
+-1--1-- 1
+1-1---1 1
+.names E22 E25 E33 E36 f1 i0 t1 u4
+-1111-- 1
+1-----1 1
+-----1- 1
+.names a0 v4
+0 1
+.names E13 E20 E37 E41 E58 E59 q w4
+---1-1- 1
+-1--1-- 1
+1-1---1 1
+.names a i0 x4
+10 1
+.names E13 E20 E37 E41 E59 E60 u y4
+---1-1- 1
+-1--1-- 1
+1-1---1 1
+.names i0 j2 z4
+01 1
+.names e0 a5
+0 1
+.names E30 E38 d1 h x b5
+-11-- 1
+1--01 1
+.names x c5
+0 1
+.names E31 E38 a0 c1 h d5
+-1-1- 1
+1-1-0 1
+.names E10 h e5
+10 1
+.names h0 f5
+0 1
+.names E13 E20 E37 E41 E61 E62 n0 g5
+---1-1- 1
+-1--1-- 1
+1-1---1 1
+.names E13 E19 E20 E37 E41 E62 d i0 t h5
+--1--1--- 1
+-1--1--01 1
+1--1--1-- 1
+.names E13 E19 E20 E37 E41 g i0 l0 t i5
+-1--1-01- 1
+1--1-1--- 1
+-11---0-1 1
+.names E25 d0 w1 E0
+100 1
+111 1
+.names f1 g2 l1 o o1 t0 w0 E1
+---0--- 1
+-----0- 1
+------1 1
+0------ 1
+--1---- 1
+-0--0-- 1
+.names f1 l1 o o1 r1 t0 w0 E2
+--0---- 1
+-----1- 1
+------0 1
+1------ 1
+-1----- 1
+---1--- 1
+----1-- 1
+.names E6 a1 j0 E3
+1-1 1
+10- 1
+.names a2 k1 v1 E4
+1-- 1
+-10 1
+.names E3 a1 a2 j0 E5
+1-0- 1
+-0-0 1
+.names k1 v1 E6
+0- 1
+-1 1
+.names b0 t1 E7
+0- 1
+-0 1
+.names a1 d2 j0 s0 x0 z1 E8
+---1-- 1
+100-10 1
+.names a1 j0 x0 E9
+-1- 1
+--0 1
+0-- 1
+.names a1 j0 o r x0 E10
+--1-- 1
+---1- 1
+10--1 1
+.names E4 E6 a1 a2 E11
+-110 1
+1-0- 1
+.names E20 E41 b1 z0 E12
+-1-0 1
+1-1- 1
+.names d0 d2 g2 z1 E13
+0--- 1
+---1 1
+-1-- 1
+--1- 1
+.names E20 E41 l0 o0 E14
+-1-1 1
+1-1- 1
+.names E33 E36 f1 o1 y0 E15
+1100- 1
+----1 1
+.names f1 i1 l1 o o1 t0 w0 E16
+---0--- 1
+-----1- 1
+------0 1
+1------ 1
+-1----- 1
+--1---- 1
+----1-- 1
+.names d0 d2 g2 s0 z1 E17
+---0- 1
+100-0 1
+.names f1 l1 m1 o o1 t0 w0 E18
+---0--- 1
+-----1- 1
+------0 1
+1------ 1
+-1----- 1
+--1---- 1
+----1-- 1
+.names E17 E7 E19
+1- 1
+-1 1
+.names o v0 E20
+0- 1
+-1 1
+.names f1 l1 o o1 q1 t0 w0 E21
+--0---- 1
+-----1- 1
+------0 1
+1------ 1
+-1----- 1
+---1--- 1
+----1-- 1
+.names E17 b0 w E22
+11- 1
+--1 1
+.names j1 u0 E23
+-0 1
+0- 1
+.names E41 k E24
+1- 1
+-1 1
+.names g2 o1 E25
+-1 1
+1- 1
+.names E27 w0 E26
+1- 1
+-0 1
+.names E9 o r t0 E27
+100- 1
+---0 1
+.names E29 o1 E28
+1- 1
+-0 1
+.names E26 l1 E29
+1- 1
+-0 1
+.names d1 f1 l1 o o1 t0 w0 E30
+---0--- 1
+-----1- 1
+------0 1
+1------ 1
+-1----- 1
+--1---- 1
+----1-- 1
+.names c1 f1 l1 o o1 t0 w0 E31
+---0--- 1
+-----1- 1
+------0 1
+1------ 1
+-1----- 1
+--1---- 1
+----1-- 1
+.names l1 o E33
+01 1
+.names h j0 E34
+01 1
+.names E33 f1 h o1 E35
+1000 1
+.names t0 w0 E36
+10 1
+.names E46 i0 s0 E37
+101 1
+.names E35 t0 w0 E38
+101 1
+.names E19 f0 i0 E39
+110 1
+.names h i0 E40
+00 1
+.names o v0 E41
+10 1
+.names E19 i0 u1 E42
+101 1
+.names E19 i0 s1 E43
+101 1
+.names E33 E36 f1 i0 E44
+1110 1
+.names E19 b2 i0 E45
+110 1
+.names b0 t1 E46
+11 1
+.names h t0 E47
+01 1
+.names E19 e1 i0 E48
+110 1
+.names E10 E47 l1 w0 E49
+1111 1
+.names E19 i0 p1 E50
+101 1
+.names E19 i0 n1 E51
+101 1
+.names E19 b i0 E52
+110 1
+.names E19 e i0 E53
+110 1
+.names E19 i0 v E54
+101 1
+.names E19 i0 y1 E55
+101 1
+.names b0 t1 E56
+01 1
+.names E19 h2 i0 E57
+110 1
+.names E19 f2 i0 E58
+110 1
+.names E19 i0 l2 E59
+101 1
+.names E19 i0 j E60
+101 1
+.names E19 i0 z E61
+101 1
+.names E19 i0 p E62
+101 1
+.end

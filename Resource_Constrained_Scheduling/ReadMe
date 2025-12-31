@@ -1,0 +1,102 @@
+專案說明:
+在本次專案中，我們要以啟發式與線性規劃的方式實現邏輯閘資源的分配演算法，  
+分配演算法的目標是在限定資源並給定邏輯閘關係的情況下，最小化電路的最大延遲。  
+在本專案中需要滿足下列的要求:  
+1. 為了簡化，我們的可用資源只有AND、OR、NOT三種邏輯閘
+2. 每個邏輯運算的時間都為1單位週期
+3. 讀取.blif檔來設定電路的邏輯關係
+5. -h表示採用啟發式方法實現的演算法
+6. -e表示採用線性規劃實現的演算法
+7. 在執行完後顯示每個階段的執行結果與電路的延遲
+
+注意事項:
+   * 使用g++版本 : g++ 11.4
+   * C++編譯版本: C++11 
+   * main.cpp包含全部的實作
+   * testcase.blif是我產生用於測試的BLIF檔
+   * 請確認 guroi_cl 指令可以正常使用
+     若guroi_cl無法使用請輸入請安裝Gurobi
+   * Project02.pdf所提供的Spec為不同年份，因此僅供參考
+
+使用方法:
+    1. 進入此專案
+    2. 輸入 cmake .
+    3. 輸入 make 
+       編譯專案並與./bin/中產生執行檔list
+    4. 輸入 ./list [-e/-h] [input.blif] [AND_Constrain] [OR_Constrain] [NOT_Constrain]
+        -e: 使用ILP-based Scheduling演算法
+        -h: 使用Heuristic Scheduling演算法
+        input.blif: 為要處理的.blif檔案
+        AND_Constrain: 代表AND閘的限制數量
+        OR_Constrain: 代表OR閘的限制數量
+        NOT_Constrain: 代表NOT閘的限制數量
+    5. 在符合邏輯閘資源限制的條件下，顯示每個時段的Boolen Opeartion
+
+執行結果:
+以下分別為對./testcase/sample.blif執行Heuristic Scheduling與ILP-based Scheduling的結果
+分別輸入(./bin/list -h ./testcase/sample.blif 2 1 0)與(./bin/list -e ./testcase/sample.blif 2 1 0)
+
+Heuristic Scheduling Result
+   1 : {a0 a1}{a2}{}
+   2 : {b1 b0}{c0}{}
+   3 : {c1 e0}{d0}{}
+   4 : {d1 h0}{f0}{}
+   5 : {e1 j0}{m0}{}
+   6 : {f1}{g0}{}
+   7 : {n0 g1}{o0}{}
+   8 : {h1 p0}{k0}{}
+   9 : {i1 t0}{b2}{}
+  10 : {v0}{c2}{}
+  11 : {}{a3}{}
+  12 : {}{b3}{}
+  13 : {}{c3}{}
+  14 : {}{d3}{}
+  15 : {}{d2}{}
+  16 : {}{e2}{}
+  17 : {}{f2}{}
+  18 : {}{i0}{}
+  19 : {l0}{g2}{}
+  20 : {r0 z0}{e3}{}
+  21 : {zd0 zl0}{h2}{}
+  22 : {zp0 zo0}{u0}{}
+  23 : {zn0 zk0}{q0}{}
+  24 : {zm0 zj0}{f3}{}
+  25 : {zi0 zh0}{i2}{}
+  26 : {zg0 zf0}{y0}{}
+  27 : {ze0 zc0}{s0}{}
+  28 : {x0 za0}{w0}{}
+  29 : {zb0 f}{e}{}
+  30 : {g h}{}{}
+LATENCY : 30
+
+ILP-based Scheduling Result
+   1 : {a0 a1}{a2}{}
+   2 : {b0 b1}{c0}{}
+   3 : {c1 e0}{d0}{}
+   4 : {d1 h0}{g0}{}
+   5 : {e1 n0}{f0}{}
+   6 : {f1 j0}{i0}{}
+   7 : {g1}{o0}{}
+   8 : {h1 t0}{k0}{}
+   9 : {i1 l0}{m0}{}
+  10 : {zb0 zj0}{u0}{}
+  11 : {p0 zc0}{b2}{}
+  12 : {zd0 zn0}{s0}{}
+  13 : {ze0 zp0}{y0}{}
+  14 : {zl0 zo0}{a3}{}
+  15 : {zh0 zi0}{w0}{}
+  16 : {za0 zf0}{b3}{}
+  17 : {zg0 zm0}{c2}{}
+  18 : {x0 zk0}{d2}{}
+  19 : {h r0}{c3}{}
+  20 : {z0}{e2}{}
+  21 : {}{d3}{}
+  22 : {v0}{e3}{}
+  23 : {}{f2}{}
+  24 : {}{f3}{}
+  25 : {}{g2}{}
+  26 : {}{h2}{}
+  27 : {}{q0}{}
+  28 : {}{i2}{}
+  29 : {f g}{e}{}
+LATENCY : 29
