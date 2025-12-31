@@ -21,8 +21,6 @@ kernel extraction、substitution等四個代數操作來最小化布林代數的
     4. 輸入 ./multilevel [input.blif] [output.blif]
        會以input.blif做為輸入並產生化簡後的output.blif檔與顯示化簡後的邏輯數
 
-
-
 執行結果:
 以下為執行 ./bin/multilevel ./testcase/sample.blif ./output/sample.blif 後的結果
 簡化後的變數名稱會以以Ex(x為任意數字)表示，以實現Multi-level Logic.
